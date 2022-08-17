@@ -1,0 +1,21 @@
+{
+  "name": "React Tutorial",
+  "dockerComposeFile": ["../docker-compose.yml", "docker-compose.yml"],
+  "service": "react-tutorial",
+  "remoteUser": "node",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.renderWhitespace": "all"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
