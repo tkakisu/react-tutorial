@@ -139,7 +139,7 @@ class Game extends React.Component<any, GameState> {
 
 ReactDOM.render(<Game />, document.getElementById('root'));
 
-function calculateWinner(squares: SquareValue[]) {
+function calculateWinner(squares: Array<SquareValue>) {
   const lines = [
     [0, 1, 2],
     [3, 4, 5],
